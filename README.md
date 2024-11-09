@@ -1,7 +1,13 @@
 # Metasploit Penetration Testing
 
 ## Project Description
-The project aimed to perform a full-spectrum vulnerability assessment and penetration test in a controlled environment. The primary focus was on identifying, exploiting, and reporting vulnerabilities using Metasploit and other tools like Nmap, ultimately providing insights and recommendations to strengthen security measures.
+The project aimed to perform a full-spectrum vulnerability assessment and penetration test in a controlled VMware environment. The primary focus was on identifying, exploiting, and reporting vulnerabilities using Metasploit and  Nmap, ultimately providing insights and recommendations to strengthen security measures.
+
+
+### Report
+Authored detailed penetration testing reports with results to help companies fix vulnerabilites.
+
+[PENETRATION TESTING REPORT](https://docs.google.com/document/d/163yTDDptosmBuTaHCn85GvmwazWox0JFKEIqm0WTieo/edit?usp=sharing)
 
 ### Tools Used
 
@@ -18,25 +24,31 @@ The project aimed to perform a full-spectrum vulnerability assessment and penetr
 - Identifying system weaknesses
 - Writing detailed testing reports
 - Risk assessment and mitigation
+  
+### Project Certificate Of Completion
+![certificate](https://github.com/user-attachments/assets/9ca64382-4ee8-4c63-92c7-40c6d8d5b5c7)
+
+https://coursera.org/verify/T2F3UURFLO1Q
+
 ---
-## Program Walkthrough:
+## Project Walkthrough:
 
 <p align="center">
   
 ![Screenshot (15)](https://github.com/user-attachments/assets/b6ed3ef1-5463-4cef-8502-27119523183e)
-Pinging the systems to check the connection between the two machines (Metasploitable 2 and Kali Linux)
+Pinging the systems to check the connection between the attack (Kali Linux) machine and victim (Metasploitable 2) machine
 <br>
 <br>
 <br>
 
 ![Screenshot (21)](https://github.com/user-attachments/assets/809713df-0b67-43db-b400-f201f79013d4)
-Using Nmap to scan for vulnerable services
+Using Nmap to scan for vulnerable open ports
 <br>
 <br>
 <br>
 
 ![Screenshot (22)](https://github.com/user-attachments/assets/8bf5280d-7d78-4b32-9af8-213c923f158f)
-Researching vulnerability CVEs
+Researching the  identified vulnerability CVEs
 <br>
 <br>
 <br>
@@ -66,13 +78,13 @@ Surveying exploitable attack paths
 <br>
 
 ![Screenshot (33)](https://github.com/user-attachments/assets/4b44ab88-edd3-4e52-b035-1ee2ccb9ba51)
-Configuring the module and delivering the payload to the victim (RHOST)
+Configuring the module and delivering the payload to the victim machine (RHOST)
 <br>
 <br>
 <br>
 
 ![Screenshot (36)](https://github.com/user-attachments/assets/88ff79ba-9407-4bdd-b0a7-8029029e094e)
-Adding a backdoor for persistence after successfully delivering the payload and gaining access.
+Adding a backdoor for persistence after successfully delivering the payload and gaining root access.
 <br>
 <br>
 <br>
