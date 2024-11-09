@@ -3,12 +3,6 @@
 ## Project Description
 The project aimed to perform a full-spectrum vulnerability assessment and penetration test in a controlled VMware environment. The primary focus was on identifying, exploiting, and reporting vulnerabilities using Metasploit and  Nmap, ultimately providing insights and recommendations to strengthen security measures.
 
-
-### Report
-Authored detailed penetration testing reports with results to help companies fix vulnerabilites.
-
-[PENETRATION TESTING REPORT](https://docs.google.com/document/d/163yTDDptosmBuTaHCn85GvmwazWox0JFKEIqm0WTieo/edit?usp=sharing)
-
 ### Tools Used
 
 - **VMware Workstation** for a controlled environment through virtualization.
@@ -24,6 +18,21 @@ Authored detailed penetration testing reports with results to help companies fix
 - Identifying system weaknesses
 - Writing detailed testing reports
 - Risk assessment and mitigation
+
+### Steps
+- Set up a controlled environment with Metasploitable 2 as the target machine and Kali Linux as the attack machine.
+- Performed reconnaissance with Nmap to identify open ports and services.
+- Researched CVEs and confirmed exploitable vulnerabilities.
+- Executed exploits using Metasploit to gain system access and configured persistence.
+- Documented findings and created a penetration testing report.
+  
+### Project Outcome
+Demonstrated exploitation capabilities and identified areas for security improvement.
+
+### Report
+Authored detailed penetration testing reports with results to help companies fix vulnerabilites.
+
+[PENETRATION TESTING REPORT](https://docs.google.com/document/d/163yTDDptosmBuTaHCn85GvmwazWox0JFKEIqm0WTieo/edit?usp=sharing)
   
 ### Project Certificate Of Completion
 ![certificate](https://github.com/user-attachments/assets/9ca64382-4ee8-4c63-92c7-40c6d8d5b5c7)
